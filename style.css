@@ -37,7 +37,7 @@ p{
 }
 
 .section-p1{
-    padding: 40px 0;
+    padding: 40px 80px;
 }
 
 .section-m1{
@@ -133,4 +133,58 @@ body{
     cursor: pointer;
     font-weight: 700;
     font-size: 15px;
+}
+
+#feature{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap:wrap ;
+}
+
+#feature .fe-box{
+    width: 180px;
+    text-align: center;
+    padding: 25px 15px;
+    box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.03);
+    border: 1px solid #cce7d0;
+    border-radius: 4px;
+    margin: 15px 0;
+}
+
+#feature .fe-box:hover{
+    box-shadow: 10px 10px 54px rgba(70, 62, 221, 0.1);
+}
+
+#feature .fe-box img{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#feature .fe-box h6{
+    padding: 9px 8px 6px 8px;
+    line-height: 1;
+    border-radius: 4px;
+    color: #aa5bc9;
+    background-color: #fddde4;
+}
+
+#feature .fe-box:nth-child(2) h6{
+    background-color: #cdebbc;
+}
+
+#feature .fe-box:nth-child(3) h6{
+    background-color: #d1e77f;
+}
+
+#feature .fe-box:nth-child(4) h6{
+    background-color: #85d3bf;
+}
+
+#feature .fe-box:nth-child(5) h6{
+    background-color: #8be79f;
+}
+
+#feature .fe-box:nth-child(6) h6{
+    background-color: #bfecfa;
 }
