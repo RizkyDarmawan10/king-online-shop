@@ -644,8 +644,8 @@ footer .copyright{
 }
 
 #blog .blog-img{
-    width: 50%;
-    margin-right: 40px;
+    width: 55%;
+    margin-right: 50px;
 }
 
 #blog img{
@@ -665,7 +665,7 @@ footer .copyright{
     color: #000;
     font-weight: 700;
     position: relative;
-    transition: 0.3s;
+    transition: 0.5s;
 }
 
 #blog .blog-details a::after{
@@ -696,6 +696,31 @@ footer .copyright{
     color: #c9cbce;
     z-index: -9;
 }
+
+
+/* About Page */
+#page-header.about-header{
+    background-image: url(img/about/banner.png);
+}
+
+#about-head{
+    display: flex;
+    align-items: center;
+}
+
+#about-head img{
+    width: 50%;
+    height: auto;
+}
+
+#about-head div{
+    padding-left: 40px;
+}
+
+
+
+
+
 
 
 
